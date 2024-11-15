@@ -79,6 +79,16 @@ This API application provides a RESTful interface for managing products, categor
 
    POST /api/products: Create a new product
 
+       exemple data:
+
+{
+    "name": "Product",
+    "description": "description of the product",
+    "price": 10.99,
+    "stock": 10,
+    "categories": [1]
+}
+
    GET /api/products/{id}: Retrieve a specific product
 
    PUT /api/products/{id}: Update an existing product
