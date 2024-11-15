@@ -100,3 +100,9 @@ This API application provides a RESTful interface for managing products, categor
     To run the tests for this API: 
 
         php artisan test
+
+**Notifications**
+
+Notifications are handled by the `Notification` class in the `app/Notifications` directory.
+
+use smtp.mailtrap.io to receive emails
